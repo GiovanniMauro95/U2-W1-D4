@@ -1,1 +1,94 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  #logo {
+    margin-left: 80px;
+  }
+
+  #logo img {
+    width: 80%;
+  }
+  
+  #navbar-container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  #navbar ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+  }
+  
+  #navbar li {
+    margin-right: 20px;
+}
+
+#navbar a {
+      text-decoration: none;
+      color: #191919;
+      align-items: center;
+      font-family: "Roboto", serif;
+
+  }
+  
+  #gs {
+    margin-left: 20px;
+    background-color: #191919;
+    font-weight: 200;
+    border-radius: 25px;
+    padding: 10px;
+    
+  }
+
+  #section1 {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  #section1 h1 {
+    font-family: "Spectral", serif;
+    font-size: 80px;
+    letter-spacing: -5px;
+    margin-left: 80px;
+    padding-bottom: 90px;
+  }
+
+  #section1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+
+  #start {
+    border-radius: 25px;
+    color: white;
+    padding: 5px 40px;
+    background-color: #191919;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+
+
+  
+  
+
+
+
 
